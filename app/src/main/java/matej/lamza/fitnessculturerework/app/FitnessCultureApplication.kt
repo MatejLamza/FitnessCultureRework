@@ -1,9 +1,9 @@
-package matej.lamza.fitnessculturerework
+package matej.lamza.fitnessculturerework.app
 
 import android.app.Application
 import matej.lamza.fitnessculturerework.di.FitnessCultureDI
 
-class FitnessCultureApp : Application() {
+class FitnessCultureApplication : Application() {
 
     private val fitnessCultureDI by lazy { FitnessCultureDI(this) }
 
